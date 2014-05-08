@@ -14,7 +14,7 @@ function roots_widgets_init() {
     'id'            => 'sidebar-primary',
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
-    'before_title'  => '<div class="row"><img src="'.$path.'/assets/img/black-cross.svg" alt="So Laci Like Logo"  width="40" height="40" /></div><h4><b>',
+    'before_title'  => '<div class="row"><img src="'.$path.'/assets/img/black-cross.svg" alt="So Laci Like Logo"  width="35px" height="35px" /></div><h4><b>',
     'after_title'   => '</b></h4>',
   ));
 
@@ -23,7 +23,7 @@ function roots_widgets_init() {
     'id'            => 'sidebar-whereelse',
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
-    'before_title'  => '<div class="row"><img src="'.$path.'/assets/img/blackdot.png" alt="So Laci Like Logo"  width="20" height="20" /></div><h4><b>',
+    'before_title'  => '<div class="row"><img src="'.$path.'/assets/img/blackdot.png" alt="So Laci Like Logo"  width="20px" height="20px" /></div><h4><b>',
     'after_title'   => '</b></h4>',
   ));
 
@@ -32,7 +32,7 @@ function roots_widgets_init() {
     'id'            => 'sidebar-work',
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
-    'before_title'  => '<div class="row"><img src="'.$path.'/assets/img/orange_triangle.png" alt="Triangle"  width="20" height="20" /></div><h4><b>',
+    'before_title'  => '<div class="row"><img src="'.$path.'/assets/img/orange_triangle.png" alt="Triangle"  width="20px" height="20px" /></div><h4><b>',
     'after_title'   => '</b></h4>',
   ));
 
@@ -42,7 +42,7 @@ function roots_widgets_init() {
     'id'            => 'sidebar-kindred',
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
-    'before_title'  => '<div class="row"><img src="'.$path.'/assets/img/squiggly.png" alt="So Laci Like Logo"  width="100" height="100" /></div><h4>',
+    'before_title'  => '<div class="row"><img src="'.$path.'/assets/img/squiggly.png" alt="So Laci Like Logo"  width="100px" height="100px" /></div><h4>',
     'after_title'   => '</h4>',
   ));
 

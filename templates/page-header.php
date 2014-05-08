@@ -10,17 +10,19 @@ if ( is_page_template('template-custom.php')) {
 
 ?>
 <div class="page-header">
-<div>
+
 <div class="musicHeader">
 <?php while (have_posts()) : the_post();  posts_nav_link(' &#183; ', 'previous page', 'next page'); ?>
 
 <div class="row">
 <!--I set the Post URL for Pinterest. Description from thumbnail is posted to Pinterest-->
 <?php $postURL=wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); $postURL=urlencode($postURL);?>
-<h5><?php echo get_the_date(); ?></h5>
-<h4><b> New Music:</b></h4>
-<h4> <?php echo get_the_title();  ?></h4>
-<ul class="list-inline "><li><img src="<?php bloginfo('template_directory'); ?>/assets/img/greendot.png" alt="Green Dot"  class="img-responsive " width="20px" height="20px"/></li></ul>
+
+<h6><?php echo get_the_date(); ?></h6>
+<h5><b> New Music:</b></h5>
+<h6> <?php echo get_the_title();  ?></h6>
+
+<ul class="list-inline "><li><img src="<?php bloginfo('template_directory'); ?>/assets/img/greendot.png" alt="Green Dot"  class="img-responsive " width="15px" height="15px"/></li></ul>
 
 
 <ul class="list-inline slight "><li>
@@ -60,7 +62,10 @@ if ( is_page_template('template-custom.php')) {
 		</div>
 		
 	</div><!--music header-->
-</div><!--empy div-->
+	<div class="headerBorder col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+
+	</div><!--empy div-->
+<ul class="list-inline text-center"><li><img src="<?php bloginfo('template_directory'); ?>/assets/img/triangle.png" alt="Upside Down Triangle"  class="img-responsive moveIMG" width="60px" height="60px"/></li></ul>
 
 
 <?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); 
