@@ -1,0 +1,151 @@
+/*!
+ * Roots 6.5.2
+ */
+
+@import "bootstrap/bootstrap.less";
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body { }
+.imgProp{width:911px; max-height:500px;}
+.textwidget {background-color: black;}
+.textwidget h3{color: white;}
+#socialRow{background-color: white;}
+.cat-item.cat-item-1{margin-left: -39px;}
+.cat-item.cat-item-2{margin-left: -39px;}
+.cat-item.cat-item-3{margin-left: -39px;}
+.cat-item.cat-item-4{margin-left: -39px;}
+.cat-item.cat-item-5{margin-left: -39px;}
+.cat-item.cat-item-6{margin-left: -39px;}
+.cat-item.cat-item-7{margin-left: -39px;}
+.cat-item.cat-item-8{margin-left: -39px;}
+.cat-item.cat-item-9{margin-left: -39px;}
+.cat-item.cat-item-10{margin-left: -39px;}
+.cat-item.cat-item-11{margin-left: -39px;}
+.cat-item.cat-item-12{margin-left: -39px;}
+.cat-item.cat-item-13{margin-left: -39px;}
+.cat-item.cat-item-14{margin-left: -39px;}
+.cat-item.cat-item-15{margin-left: -39px;}
+.cat-item.cat-item-16{margin-left: -39px;}
+.cat-item.cat-item-17{margin-left: -39px;}
+.cat-item.cat-item-18{margin-left: -39px;}
+.cat-item.cat-item-19{margin-left: -39px;}
+.cat-item.cat-item-10{margin-left: -39px;}
+.page_item {margin-left: -39px;}
+
+
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.banner { }
+.alignLogo{text-align:center;}
+.musicHeader {text-align: center; background-color:white;}
+.menuHeader {background-color: black;font-size: 20px;}
+#moveTriangle {margin-top: -22px;}
+
+
+/*.nav>li>a {color:white;}*/
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+.mainContent{border-bottom:  2px solid gray;}
+.genericContent {margin-top: 128px;}
+.contentSingle{margin-top: 83px;}
+
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+/* Gallery Shortcode */
+.gallery-row { padding: 15px 0; }
+.moveTriangle{margin-top:10px;}
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { margin-top: 128px;}
+.sidebar {text-align: center;}
+.sidebar li {list-style: none;}
+.sidebar ul{background-color:black;}
+.sidebar h3{background-color: black;color: white;}
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+.borderMe{ border:1px solid red;}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+.blackBorder{border: 1px solid black;}
+#pullUp {margin-top: -20px;}
+.footerText{text-align:center;}
+.borderTop{border-top:1px solid black;}
+.moveAnchor{margin-top: 20px;}
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (min-width: @screen-sm-min) { 	
+
+.pinIt {margin-top:160px; position:relative;}
+
+	
+	}
+
+@media (min-width: @screen-md-min) { 
+
+.pinIt {margin-top:400px; position:relative;}
+
+
+}
+
+@media (min-width: @screen-lg-min) { 
+
+.pinIt {margin-top:400px; position:relative;}
+
+
+
+}
+
+
+
+
