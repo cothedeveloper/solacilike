@@ -1,9 +1,9 @@
 <footer class="content-info container-fluid " role="contentinfo">
 <div class="row text-center">
-<a href="#" class="scrollToTop hidden-sm"><p class="moveScrollText">Back To Top</p></a>
+<a href="#" class="scrollToTop hidden-sm"><p class="moveScrollText">Back To Top</p></a><!--Controlled by jQuery-->
 
 
-<div class="col-sm-1 col-sm-offset-10  moveAnchor blackBorder text-center visible-sm">
+<div class="col-sm-1 col-sm-offset-10 col-xs-1 col-xs-offset-10 moveAnchor blackBorder text-center visible-sm">
 
 
 <ul class="list-inline  ">
@@ -20,7 +20,7 @@ TO TOP</p></li>
 	
 	
 	<div class="row ">
-	<div class="col-sm-12 col-md-12 col-lg-12 footerText">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footerText">
 
 			<ul class="list-inline">
 			
@@ -31,7 +31,7 @@ TO TOP</p></li>
 			<li> <?php next_post_link('%link ','<span class="glyphicon glyphicon-arrow-right"></span>'); ?> </li>
 			</ul>
 <img src="<?php bloginfo('template_directory'); ?>/assets/img/squiggly.png" id="pullUp" alt="Squiggly Line" width="100px" height="50px">
-		</div><!--3rd coulumn-->
+		</div><!--footerText coulumn-->
 
 
 	</div><!--End of Row-->
@@ -41,12 +41,12 @@ TO TOP</p></li>
 
 
 	  <div class="borderTop row">
-		<div class="footerText col-sm-12">
-		<?php display_Social_Icons(); ?>
+		<div class="footerText col-lg-12 col-md-12 col-sm-12">
+			<?php display_Social_Icons(); ?>
 	        
 		    <?php dynamic_sidebar('sidebar-footer'); ?>
 		    <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
-		</div><!--offset-->
+		</div><!--footerText-->
 	  </div><!--border Top-->
 </footer>
 

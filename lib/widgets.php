@@ -56,6 +56,15 @@ function roots_widgets_init() {
     'before_title'  => '<h4>',
     'after_title'   => '</h4>',
   ));
+  
+    register_sidebar(array(
+    'name'          => __('Spotify', 'roots'),
+    'id'            => 'sidebar-spotify',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>',
+  ));
 
   // Widgets
   register_widget('Roots_Vcard_Widget');
