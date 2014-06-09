@@ -14,12 +14,6 @@ echo '<h1>This is my Function output</h1>';
 
 }
 
-function custom_excerpt_length( $length ) {
-	return 100;
-}
-
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
-
 
 
 function display_Social_Icons(){
